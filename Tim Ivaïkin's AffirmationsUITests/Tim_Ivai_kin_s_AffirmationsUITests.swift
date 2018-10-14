@@ -1,6 +1,6 @@
 //
-//  Tim_Ivai_kin_s_AffirationsUITests.swift
-//  Tim Ivaïkin's AffirationsUITests
+//  Tim_Ivai_kin_s_AffirmationsUITests.swift
+//  Tim Ivaïkin's AffirmationsUITests
 //
 //  Created by Tim Ivaïkin on 9/17/18.
 //  Copyright © 2018 Tim Ivaïkin. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Tim_Ivai_kin_s_AffirationsUITests: XCTestCase {
+class Tim_Ivai_kin_s_AffirmationsUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

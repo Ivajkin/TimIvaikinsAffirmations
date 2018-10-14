@@ -1,13 +1,13 @@
 //
-//  Tim_Ivai_kin_s_AffirationsTests.swift
-//  Tim Ivaïkin's AffirationsTests
+//  Tim_Ivai_kin_s_AffirmationsTests.swift
+//  Tim Ivaïkin's AffirmationsTests
 //
 //  Created by Tim Ivaïkin on 9/17/18.
 //  Copyright © 2018 Tim Ivaïkin. All rights reserved.
 //
 
 import XCTest
-@testable import Tim_Ivai_kin_s_Affirations
+@testable import Tim_Ivai_kin_s_Affirmations
 
 class Tim_Ivai_kin_s_AffirationsTests: XCTestCase {
     

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713CD6C32173312B00E6077B /* cinematic-percussion-001.wav in Resources */ = {isa = PBXBuildFile; fileRef = 713CD6C12173312A00E6077B /* cinematic-percussion-001.wav */; };
+		713CD6C42173312B00E6077B /* male-sound-effects.wav in Resources */ = {isa = PBXBuildFile; fileRef = 713CD6C22173312A00E6077B /* male-sound-effects.wav */; };
+		713CD6C72173332600E6077B /* PlaybuttonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CD6C62173332600E6077B /* PlaybuttonState.swift */; };
 		8CDA800721500D260016F50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA800621500D260016F50D /* AppDelegate.swift */; };
 		8CDA800C21500D260016F50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA800A21500D260016F50D /* Main.storyboard */; };
 		8CDA800E21500D280016F50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA800D21500D280016F50D /* Assets.xcassets */; };
 		8CDA801121500D280016F50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA800F21500D280016F50D /* LaunchScreen.storyboard */; };
-		8CDA801C21500D280016F50D /* Tim_Ivai_kin_s_AffirationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirationsTests.swift */; };
-		8CDA802721500D280016F50D /* Tim_Ivai_kin_s_AffirationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirationsUITests.swift */; };
+		8CDA801C21500D280016F50D /* Tim_Ivai_kin_s_AffirmationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirmationsTests.swift */; };
+		8CDA802721500D280016F50D /* Tim_Ivai_kin_s_AffirmationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirmationsUITests.swift */; };
 		8CDA803621500E560016F50D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA803521500E560016F50D /* PlayerViewController.swift */; };
 		8CDA803821500F230016F50D /* PlayerViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA803721500F230016F50D /* PlayerViewOutput.swift */; };
 		8CDA803B21500F600016F50D /* PlayerViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA803A21500F600016F50D /* PlayerViewInput.swift */; };
@@ -37,17 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8CDA800321500D260016F50D /* Tim Ivaïkin's Affirations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tim Ivaïkin's Affirations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		713CD6C12173312A00E6077B /* cinematic-percussion-001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cinematic-percussion-001.wav"; sourceTree = "<group>"; };
+		713CD6C22173312A00E6077B /* male-sound-effects.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "male-sound-effects.wav"; sourceTree = "<group>"; };
+		713CD6C62173332600E6077B /* PlaybuttonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybuttonState.swift; sourceTree = "<group>"; };
+		8CDA800321500D260016F50D /* Tim Ivaïkin's Affirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tim Ivaïkin's Affirmations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDA800621500D260016F50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CDA800B21500D260016F50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CDA800D21500D280016F50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CDA801021500D280016F50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CDA801221500D280016F50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CDA801721500D280016F50D /* Tim Ivaïkin's AffirationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim Ivaïkin's AffirationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_Ivai_kin_s_AffirationsTests.swift; sourceTree = "<group>"; };
+		8CDA801721500D280016F50D /* Tim Ivaïkin's AffirmationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim Ivaïkin's AffirmationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirmationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_Ivai_kin_s_AffirmationsTests.swift; sourceTree = "<group>"; };
 		8CDA801D21500D280016F50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CDA802221500D280016F50D /* Tim Ivaïkin's AffirationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim Ivaïkin's AffirationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_Ivai_kin_s_AffirationsUITests.swift; sourceTree = "<group>"; };
+		8CDA802221500D280016F50D /* Tim Ivaïkin's AffirmationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim Ivaïkin's AffirmationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirmationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_Ivai_kin_s_AffirmationsUITests.swift; sourceTree = "<group>"; };
 		8CDA802821500D280016F50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDA803521500E560016F50D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		8CDA803721500F230016F50D /* PlayerViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewOutput.swift; sourceTree = "<group>"; };
@@ -80,12 +86,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713CD6B5216E163600E6077B /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA800621500D260016F50D /* AppDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		713CD6C02173310F00E6077B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				713CD6C12173312A00E6077B /* cinematic-percussion-001.wav */,
+				713CD6C22173312A00E6077B /* male-sound-effects.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		713CD6C5217332F700E6077B /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				713CD6C62173332600E6077B /* PlaybuttonState.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		8CDA7FFA21500D260016F50D = {
 			isa = PBXGroup;
 			children = (
-				8CDA800521500D260016F50D /* Tim Ivaïkin's Affirations */,
-				8CDA801A21500D280016F50D /* Tim Ivaïkin's AffirationsTests */,
-				8CDA802521500D280016F50D /* Tim Ivaïkin's AffirationsUITests */,
+				8CDA800521500D260016F50D /* Tim Ivaïkin's Affirmations */,
+				8CDA801A21500D280016F50D /* Tim Ivaïkin's AffirmationsTests */,
+				8CDA802521500D280016F50D /* Tim Ivaïkin's AffirmationsUITests */,
 				8CDA800421500D260016F50D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,42 +124,44 @@
 		8CDA800421500D260016F50D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CDA800321500D260016F50D /* Tim Ivaïkin's Affirations.app */,
-				8CDA801721500D280016F50D /* Tim Ivaïkin's AffirationsTests.xctest */,
-				8CDA802221500D280016F50D /* Tim Ivaïkin's AffirationsUITests.xctest */,
+				8CDA800321500D260016F50D /* Tim Ivaïkin's Affirmations.app */,
+				8CDA801721500D280016F50D /* Tim Ivaïkin's AffirmationsTests.xctest */,
+				8CDA802221500D280016F50D /* Tim Ivaïkin's AffirmationsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CDA800521500D260016F50D /* Tim Ivaïkin's Affirations */ = {
+		8CDA800521500D260016F50D /* Tim Ivaïkin's Affirmations */ = {
 			isa = PBXGroup;
 			children = (
+				713CD6C5217332F700E6077B /* Types */,
+				713CD6B5216E163600E6077B /* ApplicationLayer */,
 				8CDA803421500E330016F50D /* PresentationLayer */,
-				8CDA800621500D260016F50D /* AppDelegate.swift */,
+				713CD6C02173310F00E6077B /* Resources */,
 				8CDA800A21500D260016F50D /* Main.storyboard */,
 				8CDA800D21500D280016F50D /* Assets.xcassets */,
 				8CDA800F21500D280016F50D /* LaunchScreen.storyboard */,
 				8CDA801221500D280016F50D /* Info.plist */,
 			);
-			path = "Tim Ivaïkin's Affirations";
+			path = "Tim Ivaïkin's Affirmations";
 			sourceTree = "<group>";
 		};
-		8CDA801A21500D280016F50D /* Tim Ivaïkin's AffirationsTests */ = {
+		8CDA801A21500D280016F50D /* Tim Ivaïkin's AffirmationsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirationsTests.swift */,
+				8CDA801B21500D280016F50D /* Tim_Ivai_kin_s_AffirmationsTests.swift */,
 				8CDA801D21500D280016F50D /* Info.plist */,
 			);
-			path = "Tim Ivaïkin's AffirationsTests";
+			path = "Tim Ivaïkin's AffirmationsTests";
 			sourceTree = "<group>";
 		};
-		8CDA802521500D280016F50D /* Tim Ivaïkin's AffirationsUITests */ = {
+		8CDA802521500D280016F50D /* Tim Ivaïkin's AffirmationsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirationsUITests.swift */,
+				8CDA802621500D280016F50D /* Tim_Ivai_kin_s_AffirmationsUITests.swift */,
 				8CDA802821500D280016F50D /* Info.plist */,
 			);
-			path = "Tim Ivaïkin's AffirationsUITests";
+			path = "Tim Ivaïkin's AffirmationsUITests";
 			sourceTree = "<group>";
 		};
 		8CDA803421500E330016F50D /* PresentationLayer */ = {
@@ -161,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CDA800221500D260016F50D /* Tim Ivaïkin's Affirations */ = {
+		8CDA800221500D260016F50D /* Tim Ivaïkin's Affirmations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CDA802B21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's Affirations" */;
+			buildConfigurationList = 8CDA802B21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's Affirmations" */;
 			buildPhases = (
 				8CDA7FFF21500D260016F50D /* Sources */,
 				8CDA800021500D260016F50D /* Frameworks */,
@@ -173,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = "Tim Ivaïkin's Affirations";
+			name = "Tim Ivaïkin's Affirmations";
 			productName = "Tim Ivaïkin's Affirations";
-			productReference = 8CDA800321500D260016F50D /* Tim Ivaïkin's Affirations.app */;
+			productReference = 8CDA800321500D260016F50D /* Tim Ivaïkin's Affirmations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8CDA801621500D280016F50D /* Tim Ivaïkin's AffirationsTests */ = {
+		8CDA801621500D280016F50D /* Tim Ivaïkin's AffirmationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CDA802E21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirationsTests" */;
+			buildConfigurationList = 8CDA802E21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirmationsTests" */;
 			buildPhases = (
 				8CDA801321500D280016F50D /* Sources */,
 				8CDA801421500D280016F50D /* Frameworks */,
@@ -191,14 +224,14 @@
 			dependencies = (
 				8CDA801921500D280016F50D /* PBXTargetDependency */,
 			);
-			name = "Tim Ivaïkin's AffirationsTests";
+			name = "Tim Ivaïkin's AffirmationsTests";
 			productName = "Tim Ivaïkin's AffirationsTests";
-			productReference = 8CDA801721500D280016F50D /* Tim Ivaïkin's AffirationsTests.xctest */;
+			productReference = 8CDA801721500D280016F50D /* Tim Ivaïkin's AffirmationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8CDA802121500D280016F50D /* Tim Ivaïkin's AffirationsUITests */ = {
+		8CDA802121500D280016F50D /* Tim Ivaïkin's AffirmationsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CDA803121500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirationsUITests" */;
+			buildConfigurationList = 8CDA803121500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirmationsUITests" */;
 			buildPhases = (
 				8CDA801E21500D280016F50D /* Sources */,
 				8CDA801F21500D280016F50D /* Frameworks */,
@@ -209,9 +242,9 @@
 			dependencies = (
 				8CDA802421500D280016F50D /* PBXTargetDependency */,
 			);
-			name = "Tim Ivaïkin's AffirationsUITests";
+			name = "Tim Ivaïkin's AffirmationsUITests";
 			productName = "Tim Ivaïkin's AffirationsUITests";
-			productReference = 8CDA802221500D280016F50D /* Tim Ivaïkin's AffirationsUITests.xctest */;
+			productReference = 8CDA802221500D280016F50D /* Tim Ivaïkin's AffirmationsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CDA7FFE21500D260016F50D /* Build configuration list for PBXProject "Tim Ivaïkin's Affirations" */;
+			buildConfigurationList = 8CDA7FFE21500D260016F50D /* Build configuration list for PBXProject "Tim Ivaïkin's Affirmations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CDA800221500D260016F50D /* Tim Ivaïkin's Affirations */,
-				8CDA801621500D280016F50D /* Tim Ivaïkin's AffirationsTests */,
-				8CDA802121500D280016F50D /* Tim Ivaïkin's AffirationsUITests */,
+				8CDA800221500D260016F50D /* Tim Ivaïkin's Affirmations */,
+				8CDA801621500D280016F50D /* Tim Ivaïkin's AffirmationsTests */,
+				8CDA802121500D280016F50D /* Tim Ivaïkin's AffirmationsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +298,8 @@
 				8CDA801121500D280016F50D /* LaunchScreen.storyboard in Resources */,
 				8CDA800E21500D280016F50D /* Assets.xcassets in Resources */,
 				8CDA800C21500D260016F50D /* Main.storyboard in Resources */,
+				713CD6C32173312B00E6077B /* cinematic-percussion-001.wav in Resources */,
+				713CD6C42173312B00E6077B /* male-sound-effects.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CDA803B21500F600016F50D /* PlayerViewInput.swift in Sources */,
+				713CD6C72173332600E6077B /* PlaybuttonState.swift in Sources */,
 				8CDA803D21500F870016F50D /* PlayerPresenter.swift in Sources */,
 				8CDA803821500F230016F50D /* PlayerViewOutput.swift in Sources */,
 				8CDA800721500D260016F50D /* AppDelegate.swift in Sources */,
@@ -301,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CDA801C21500D280016F50D /* Tim_Ivai_kin_s_AffirationsTests.swift in Sources */,
+				8CDA801C21500D280016F50D /* Tim_Ivai_kin_s_AffirmationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CDA802721500D280016F50D /* Tim_Ivai_kin_s_AffirationsUITests.swift in Sources */,
+				8CDA802721500D280016F50D /* Tim_Ivai_kin_s_AffirmationsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		8CDA801921500D280016F50D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CDA800221500D260016F50D /* Tim Ivaïkin's Affirations */;
+			target = 8CDA800221500D260016F50D /* Tim Ivaïkin's Affirmations */;
 			targetProxy = 8CDA801821500D280016F50D /* PBXContainerItemProxy */;
 		};
 		8CDA802421500D280016F50D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CDA800221500D260016F50D /* Tim Ivaïkin's Affirations */;
+			target = 8CDA800221500D260016F50D /* Tim Ivaïkin's Affirmations */;
 			targetProxy = 8CDA802321500D280016F50D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,13 +503,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MY792L6NQ8;
-				INFOPLIST_FILE = "Tim Ivaïkin's Affirations/Info.plist";
+				DEVELOPMENT_TEAM = AM78RE6F3D;
+				INFOPLIST_FILE = "$(SRCROOT)/Tim Ivaïkin's Affirmations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "solutions.tmedia.Tim-Ivai-kin-s-Affirations";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.tmedia.IvaikinsAffirmations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,13 +521,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MY792L6NQ8;
-				INFOPLIST_FILE = "Tim Ivaïkin's Affirations/Info.plist";
+				DEVELOPMENT_TEAM = AM78RE6F3D;
+				INFOPLIST_FILE = "$(SRCROOT)/Tim Ivaïkin's Affirmations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "solutions.tmedia.Tim-Ivai-kin-s-Affirations";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.tmedia.IvaikinsAffirmations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +550,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Ivaïkin's Affirations.app/Tim Ivaïkin's Affirations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Ivaïkin's Affirmations.app/Tim Ivaïkin's Affirmations";
 			};
 			name = Debug;
 		};
@@ -534,7 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Ivaïkin's Affirations.app/Tim Ivaïkin's Affirations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Ivaïkin's Affirmations.app/Tim Ivaïkin's Affirmations";
 			};
 			name = Release;
 		};
@@ -579,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CDA7FFE21500D260016F50D /* Build configuration list for PBXProject "Tim Ivaïkin's Affirations" */ = {
+		8CDA7FFE21500D260016F50D /* Build configuration list for PBXProject "Tim Ivaïkin's Affirmations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CDA802921500D280016F50D /* Debug */,
@@ -588,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CDA802B21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's Affirations" */ = {
+		8CDA802B21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's Affirmations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CDA802C21500D280016F50D /* Debug */,
@@ -597,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CDA802E21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirationsTests" */ = {
+		8CDA802E21500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirmationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CDA802F21500D280016F50D /* Debug */,
@@ -606,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CDA803121500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirationsUITests" */ = {
+		8CDA803121500D280016F50D /* Build configuration list for PBXNativeTarget "Tim Ivaïkin's AffirmationsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CDA803221500D280016F50D /* Debug */,
